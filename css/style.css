@@ -1,0 +1,227 @@
+header{
+	text-align: right;
+	padding-right: 4%;
+}
+nav{
+	font-size: 1.8vw;
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	/*playfair display black*/
+}
+.nav_bar{
+	padding-left: 1%;
+	padding-right: 1%;
+	color: #000000;
+}
+.nav_bar_logo{
+	float: left;
+	padding-left: 5%;
+	font-family: typhone, Times New Roman, serif;
+	font-weight: bold;
+	color: #000000;
+}
+
+.intro {
+	position: relative;
+}
+.intro_text {
+	position: absolute;
+	top: 8%;
+}
+.me_img {
+	padding-top: 2.7%;
+	width: 90%;
+	padding-left: 5%;
+}
+
+h1{
+	padding-left: 5%;
+	padding-top: 3%;
+	font-size: 5.9vw;
+	line-height: 0.1em;
+	font-family: typhone, Times New Roman, serif;
+}
+
+h2{
+	padding-left: 5%;
+	font-family: typhone, Times New Roman, serif;
+	font-size: 4.2vw;
+}
+
+h3 {
+	padding-left: 5%;
+	font-family: typhone, Times New Roman, serif;
+	font-size: 3.2vw;
+}
+
+h5 {
+	padding-left: 5%;
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.9vw;
+	font-weight: lighter;
+	line-height: 0.1em;
+}
+
+p {
+	padding-left: 5%;
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.2vw;
+}
+
+ul {
+	margin-top: 2em;
+}
+
+li {
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.2vw;
+	color: gray;
+}
+
+/*.skills_flex {
+	display: flex;
+}
+.skills {
+	margin-right: 1em;
+}*/
+
+.resume_link {
+	font-weight: bold;
+	font-size: 1.8vw;
+}
+
+.about_img {
+	padding-top: 2.7%;
+	width: 90%;
+	padding-left: 5%;
+}
+
+.desc {
+	line-height: 0.1em;
+	margin-top: -0.7em;
+	color: gray;
+}
+
+.resume_header {
+	margin-bottom: -0.3em;
+}
+
+.about_me{
+	padding-left: 5%;
+	padding-right: 45%;
+	font-size: 2vw;
+}
+
+.highlight {
+	padding-left: 5%;
+}
+.highlight img{
+	width: 29%;
+	margin-top: -1.5vw;
+	padding-right: 3.5%;
+}
+
+.email{
+	font-family: typhone, Times New Roman, serif;
+	font-size: 3.5vw;
+	font-weight: bold;
+	color: #000000;
+}
+
+.footer_note {
+	padding-left: 0%;
+}
+
+.sm_icon{
+	width: 2.5vw;
+	height: auto;
+	padding-right: 1%;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+footer{
+	margin-top: 7%;
+	padding-left: 5%;
+	padding-bottom: 10%;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  /*padding: 0 4px;*/
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 23%; /* IE10 */
+  flex: 23%;
+  max-width: 23%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 48%;
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.crochet_img {
+	padding-left: 5%;
+	width: 30%;
+	float: left;
+}
+
+.crochet_content {
+	padding-top: 3%;
+}
+
+.crochet_content h2, .crochet_content p{
+	padding-left: 40%;
+}
+
+
+table {
+	padding-left: 4.91%;
+	border-spacing: 0;
+}
+
+th {
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.9vw;
+	font-weight: lighter;
+	border: none;
+}
+
+.skills {
+	text-align: left;
+}
+.skills_list {
+	padding-right: 5vw;
+}

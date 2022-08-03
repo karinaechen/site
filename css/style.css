@@ -84,15 +84,18 @@ li {
 	margin-right: 1em;
 }*/
 
-.resume_link {
-	font-weight: bold;
-	font-size: 1.8vw;
-}
-
 .about_img {
 	padding-top: 2.7%;
-	width: 90%;
+	width: 30%;
 	padding-left: 5%;
+	float: left;
+}
+
+.about {
+	padding-top: 3%;
+	padding-left: 37%;
+	padding-right: 5%;
+	font-size: 1.5vw;
 }
 
 .desc {

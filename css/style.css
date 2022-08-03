@@ -84,11 +84,17 @@ li {
 	margin-right: 1em;
 }*/
 
-.about_img {
+.about_img1 {
 	padding-top: 2.7%;
 	width: 30%;
 	padding-left: 5%;
 	float: left;
+}
+.about_img2 {
+	padding-top: 3%;
+	width: 35%;
+	padding-right: 12%;
+	float: right;
 }
 
 .about {

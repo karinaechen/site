@@ -58,7 +58,7 @@ h5 {
 	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-size: 1.9vw;
 	font-weight: lighter;
-	line-height: 0.01vh;/*0.1em;*/
+	/*line-height: 0.01vh;/*0.1em;*/
 }
 
 p {
@@ -105,8 +105,9 @@ li {
 }
 
 .desc {
-	line-height: 0.01vh;
-	margin-top: -1vh;/*0.1em;
+	margin-top: -1vh;
+	/*line-height: 0.01vh;
+	/*0.1em;
 	margin-top: -0.7em;*/
 	color: gray;
 }

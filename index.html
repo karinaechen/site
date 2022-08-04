@@ -3,58 +3,40 @@
 <head>
 	<meta charset = "UTF-8">
 	<title>Karina Chen</title>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="index.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 </head>
-<body>
-	<header>
-		<nav>
-			<a href="index.html" class="nav_bar_logo">KC</a>
-			<a href='index.html' class="nav_bar">Home</a>
-			<a href='crochet.html' class="nav_bar">Crochet</a>
-			<a href='about.html' class="nav_bar">About</a>
-			<a href='KarinaChen_Resume.pdf' target="_blank" class="nav_bar">Resume</a>
-			<a href='#contact' class="nav_bar">Contact</a>
+<body class="container full-height-grow">
+	<header class="main-header">
+		<a href="index.html" class="logo">
+			<img src="imgs/logo.png">
+			<!--<div class="logo-name">Karina Chen</div>-->
+		</a>
+		<nav class="main-nav">
+			<ul>
+				<li><a href='crochet.html'>Crochet</a></li>
+				<li><a href='about.html'>About</a></li>
+				<li><a href='KarinaChen_Resume.pdf' target="_blank">Resume</a></li>
+				<li><a href='about.html#contact'>Contact</a></li>
+			</ul>
 		</nav>
 	</header>
 
-			<!--<div class="top">
-				<h1>Hi, I'm Karina.</h1>
-				<div class="image-cropper">
-					<img src="imgs/me.jpg" alt="Karina Chen" class="me_img">
-				</div>
-			</div>-->
-
-
-	<div class="intro">
-		<img src="imgs/mee.jpg" alt="Karina Chen" class="me_img">
-
-		<div class="intro_text">
-			<h1>Hi, I'm Karina</h1>
-			
-			<p class="about_me">a third-year student at UC San Diego majoring in data science and minoring in design. add more stuff to da blurb<!-- I love to crochet and draw stickers -- see some of my work <a href="projects.html">here</a>, and read more about me <a href="about.html">here</a>--></p>
+	<section class="home-main-section">
+		<div class="img-wrapper">
+			<div class="me-image"></div>
 		</div>
-	</div>
+		<div class="call-to-action">
+			<h1 class="title">Hi, I'm Karina</h1>
+			<span class="subtitle">a third-year student at UC San Diego majoring in data science and minoring in design. add more stuff to da blurb</span>
+			<!--<a href="crochet.html" class="btn">Check out my crochet projects</a>-->
+		</div>
+	</section>
 
-	<h2>Recent Crochet Projects</h2>
-	<div class="highlight">
-		<a href="jellyfish.html"><img src="imgs/crochet/jellyfish.jpg" alt="Crochet Jellyfish"></a>
-		<a href="cow.html"><img src="imgs/crochet/cow.jpg" alt="Crochet Cow"></a>
-		<a href="molang.html"><img src="imgs/crochet/molang.jpg" alt="Crochet Molang"></a>
-	
-	</div>
+	<div class="home-page-shape-1"></div>
+	<div class="home-page-shape-2"></div>
+	<div class="home-page-shape-3"></div>
 
-	<footer id="contact">
-		<a href="mailto:karina.e.chen@gmail.com" target="_blank" class="email">karina.e.chen@gmail.com</a>
-		<p class="footer_note">Get in touch!</p>
-		<a href="https://www.linkedin.com/in/karina-e-chen/" target="_blank">
-			<img class="sm_icon" src="imgs/linkedin.png" alt="Linkedin">
-		</a>
-		<a href="https://github.com/karinaechen" target="_blank">
-			<img class="sm_icon" src="imgs/github.png" alt="GitHub">
-		</a>
-		<a href="https://www.instagram.com/" target="_blank">
-			<img class="sm_icon" src="imgs/instagram.png" alt="Instagram">
-		</a>
-	</footer>
 </body>
 </html>

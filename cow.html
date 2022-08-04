@@ -3,26 +3,41 @@
 <head>
 	<meta charset = "UTF-8">
 	<title>Crochet Cow - Karina Chen</title>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="crochet.css"/>
 </head>
-<body>
-	<header>
-		<nav>
-			<a href="index.html" class="nav_bar_logo">KC</a>
-			<a href='index.html' class="nav_bar">Home</a>
-			<a href='crochet.html' class="nav_bar">Crochet</a>
-			<a href='about.html' class="nav_bar">About</a>
-			<a href='KarinaChen_Resume.pdf' target="_blank" class="nav_bar">Resume</a>
-			<a href='#contact' class="nav_bar">Contact</a>
+<body class="full-height-grow">
+	<div class="container full-height-grow">
+	<header class="main-header">
+		<a href="index.html" class="logo">
+			<img src="imgs/logo.png">
+			<!--<div class="logo-name">Karina Chen</div>-->
+		</a>
+		<nav class="main-nav">
+			<ul>
+				<li><a href='crochet.html'>Crochet</a></li>
+				<li><a href='about.html'>About</a></li>
+				<li><a href='KarinaChen_Resume.pdf' target="_blank">Resume</a></li>
+				<li><a href='about.html#contact'>Contact</a></li>
+			</ul>
 		</nav>
 	</header>
 
-	<div class="crochet_content">
+	<section class="crochet-main-section">
 		<img src="imgs/crochet/cow.jpg" alt="Crochet Cow" class="crochet_img">
-		 
-		<h2>Cow</h2>
-		<p>Followed <a href="https://www.youtube.com/watch?v=1_19stbuYeM" target="_blank">pattern</a> by Colorcarnaval on YouTube.</p>
+
+		<div class="crochet-description">
+			<h1 class="title">Cow</h1>
+			Followed <a href="https://www.youtube.com/watch?v=1_19stbuYeM" target="_blank">pattern</a> by Colorcarnaval on YouTube.
+		</div>
+	</section>
+
 	</div>
 
+	<footer class="main-footer">
+		<div class="container">
+		</div>
+	</footer>
+	
 </body>
 </html>

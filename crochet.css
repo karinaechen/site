@@ -1,0 +1,36 @@
+.crochet-main-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+
+.crochet-main-section img {
+	width: 30vw;
+	margin-right: 2rem;
+	height: auto;
+	max-width: 350px;
+}
+
+@media (max-width: 800px) {
+	.crochet-main-section {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.crochet-main-section img {
+		margin-top: 2rem;
+		height: 30vh;
+		width: auto;
+	}
+}
+
+
+a:hover {
+	color: #adadad;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}

@@ -3,126 +3,126 @@
 <head>
 	<meta charset = "UTF-8">
 	<title>About Me - Karina Chen</title>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="stylesheet" href="about.css"/>
 </head>
-<body>
-	<header>
-		<nav>
-			<a href="index.html" class="nav_bar_logo">KC</a>
-			<a href='index.html' class="nav_bar">Home</a>
-			<a href='crochet.html' class="nav_bar">Crochet</a>
-			<a href='about.html' class="nav_bar">About</a>
-			<a href='KarinaChen_Resume.pdf' target="_blank" class="nav_bar">Resume</a>
-			<a href='index.html#contact' class="nav_bar">Contact</a>
+<body class="full-height-grow">
+	<div class="container full-height-grow">
+	<header class="main-header">
+		<a href="index.html" class="logo">
+			<img src="imgs/logo.png">
+			<!--<div class="logo-name">Karina Chen</div>-->
+		</a>
+		<nav class="main-nav">
+			<ul>
+				<li><a href='crochet.html'>Crochet</a></li>
+				<li><a href='about.html'>About</a></li>
+				<li><a href='KarinaChen_Resume.pdf' target="_blank">Resume</a></li>
+				<li><a href='about.html#contact'>Contact</a></li>
+			</ul>
 		</nav>
 	</header>
 
-	<img src="imgs/me.jpg" alt="Karina Chen" class="about_img1">
+	<section class="about-main-section">
+		<div class="about-me">
+			<h1 class="title">Karina Chen</h1>
+			I'm a student at UC San Diego pursuing a B.S. in data science and a minor in design! Outside of academics, I crochet, read, and draw <a href="https://www.redbubble.com/people/createdbykarina/shop" target="_blank">stickers</a>.
+		</div>
 
-	<p class="about">Hi, I'm Karina Chen, a student at UC San Diego pursuing a B.S. in data science and a minor in design! <br>
-	Outside of academics, I crochet, read, and draw <a href="https://www.redbubble.com/people/createdbykarina/shop">stickers</a>.
-	<!--<br><br><br><br><br><br><br><br><br><br><br>-->
-	</p>
+		<img src="imgs/me.jpg" class="about-me-image">
+	</section>
 
-	<div style="clear: both;"></div>
+	<section class="contact-me" id="contact">
+		<span class="subtitle">
+			<a href="mailto:karina.e.chen@gmail.com" target="_blank" class="email">karina.e.chen@gmail.com</a>
+		</span>
 
-	<img src="imgs/me.jpg" alt="Karina Chen" class="about_img2">
+		<div class="contact-section">
+			<div class="icon">
+				<a href="https://www.linkedin.com/in/karina-e-chen/" target="_blank">
+					<img src="imgs/linkedin.png" alt="Linkedin">
+				</a>
+			</div>
+			<div class="icon">
+				<a href="https://github.com/karinaechen" target="_blank">
+					<img src="imgs/github.png" alt="GitHub">
+				</a>
+			</div>
+			<div class="icon">
+				<a href="https://www.instagram.com/karinaechen/" target="_blank">
+					<img src="imgs/instagram.png" alt="Instagram">
+				</a>
+			</div>
+		</div>
+	</section>
 
-	<h3 class="resume_header">Education</h3>
-	<h5>University of California, San Diego</h5>
-	<p class="desc">Data Science B.S., Design Minor (Sept. 2020 - Mar. 2024)</p>
+	<!--<section class="about-main-section">
+		<div class="about-me">
+			<h1 class="title">Karina Chen</h1>
+			I'm a student at UC San Diego pursuing a B.S. in data science and a minor in design! Outside of academics, I crochet, read, and draw <a href="https://www.redbubble.com/people/createdbykarina/shop" target="_blank">stickers</a>.
+			<br>
+			
+			<span class="subtitle">
+				<a href="mailto:karina.e.chen@gmail.com" target="_blank" class="email">karina.e.chen@gmail.com</a>
+			</span>
 
-	<h3 class="resume_header">Work Experience</h3>
-	<h5>Halıcıoğlu Data Science Institute</h5>
-	<p class="desc">Instructional Assistant / Tutor (Jan. 2022 - Present)</p>
-	<h5>Hey Social Good</h5>
-	<p class="desc">Data Science Intern (Mar. 2021 - Sept. 2021)</p>
+			<div class="contact-section">
+				<div class="icon">
+					<a href="https://www.linkedin.com/in/karina-e-chen/" target="_blank">
+						<img src="imgs/linkedin.png" alt="Linkedin">
+					</a>
+				</div>
+				<div class="icon">
+					<a href="https://github.com/karinaechen" target="_blank">
+						<img src="imgs/github.png" alt="GitHub">
+					</a>
+				</div>
+				<div class="icon">
+					<a href="https://www.instagram.com/" target="_blank">
+						<img src="imgs/instagram.png" alt="Instagram">
+					</a>
+				</div>
+			</div>
+		</div>
 
-	<h3 class="resume_header">Skills</h3>
-	<!--<div class="skills_flex">
-		<h5>Languages</h5>
-		<ul>
-			<li class="skills">Python</li>
-			<li class="skills">Java</li>
-			<li class="skills">R</li>
-			<li class="skills">SQL</li>
-			<li class="skills">MATLAB</li>
-		</ul>
-		<h5>Design</h5>
-		<ul>
-			<li class="skills">HTML/CSS</li>
-			<li class="skills">Figma</li>
-			<li class="skills">Adobe CC</li>
-		</ul>
-		<h5>General/Other</h5>
-		<ul>
-			<li class="skills">Pandas</li>
-			<li class="skills">Numpy</li>
-			<li class="skills">Scikit-learn</li>
-			<li class="skills">BeautifulSoup</li>
-			<li class="skills">Matplotlib</li>
-			<li class="skills">Seaborn</li>
-			<li class="skills">Jupyter Notebook</li>
-			<li class="skills">Git</li>
-			<li class="skills">RStudio</li>
-			<li class="skills">LaTeX</li>
-			<li class="skills">Fluent in English and Chinese</li>
-		</ul>
-	</div>-->
+		<img src="imgs/me.jpg" class="about-me-image">
+	</section>-->
 
-	<table>
-		<tr>
-			<th valign="text-top" align="left">Languages</th>
-			<th valign="text-top" class="skills_list">
+	</div>
+
+	<div class="shape-1"></div>
+	<div class="shape-2"></div>
+
+	<footer class="main-footer">
+		<div class="container">
+			<!--<nav class="footer-nav">
 				<ul>
-					<li class="skills">Python</li>
-					<li class="skills">Java</li>
-					<li class="skills">R</li>
-					<li class="skills">SQL</li>
-					<li class="skills">MATLAB</li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
 				</ul>
-			</th>
-			<th valign="text-top" align="left">Design</th>
-			<th valign="text-top" class="skills_list">
+			</nav>
+			<nav class="footer-nav">
 				<ul>
-					<li class="skills">HTML/CSS</li>
-					<li class="skills">Figma</li>
-					<li class="skills">Adobe CC</li>
+					<li>
+						<a href="#" class="social-link">
+							<img src="imgs/linkedin.png">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-link">
+							<img src="imgs/github.png">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="social-link">
+							<img src="imgs/instagram.png">
+						</a>
+					</li>
 				</ul>
-			</th>
-			<th valign="text-top" align="left">General/Other</th>
-			<th valign="text-top" class="skills_list">
-				<ul>
-					<li class="skills">Pandas</li>
-					<li class="skills">Numpy</li>
-					<li class="skills">Scikit-learn</li>
-					<li class="skills">BeautifulSoup</li>
-					<li class="skills">Matplotlib</li>
-					<li class="skills">Seaborn</li>
-					<li class="skills">Jupyter Notebook</li>
-					<li class="skills">Git</li>
-					<li class="skills">RStudio</li>
-					<li class="skills">LaTeX</li>
-					<li class="skills">Fluent in English and Chinese</li>
-				</ul>
-			</th>
-		</tr>
-	</table>
-
-	<footer id="contact">
-		<a href="mailto:karina.e.chen@gmail.com" target="_blank" class="email">karina.e.chen@gmail.com</a>
-		<p class="footer_note">Get in touch!</p>
-		<a href="https://www.linkedin.com/in/karina-e-chen/" target="_blank">
-			<img class="sm_icon" src="imgs/linkedin.png" alt="Linkedin">
-		</a>
-		<a href="https://github.com/karinaechen" target="_blank">
-			<img class="sm_icon" src="imgs/github.png" alt="GitHub">
-		</a>
-		<a href="https://www.instagram.com/" target="_blank">
-			<img class="sm_icon" src="imgs/instagram.png" alt="Instagram">
-		</a>
+			</nav>
+		-->
+		</div>
 	</footer>
 	
-
 </body>
 </html>

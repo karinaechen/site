@@ -41,6 +41,20 @@
 	}
 }
 
+@media (max-width: 420px) {
+	.home-main-section .img-wrapper {
+		display: none;
+	}
+
+	.home-main-section {
+		justify-content: center;
+	}
+
+	.home-page-shape-3 {
+		display: none;
+	}
+}
+
 .home-page-shape-1 {
 	position: absolute;
 	width: 25vw;

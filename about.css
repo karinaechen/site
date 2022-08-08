@@ -39,6 +39,11 @@
 		height: 30vh;
 		width: auto;
 	}
+
+	.about-main-section .about-me-image {
+		margin-left: 0;
+		margin-bottom: 2rem;
+	}
 }
 
 .email {
@@ -98,4 +103,12 @@ a {
   width: 100%;
   border-radius: 50%;
   background-color: rgb(127,191,130,0.1);
+}
+
+
+@media (max-width: 420px) {
+	.about-main-section .about-me-image {
+		margin-left: 0;
+		margin-bottom: 2rem;
+	}
 }

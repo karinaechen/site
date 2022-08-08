@@ -14,7 +14,7 @@
 }
 
 .home-main-section .me-image {
-	background-image: url(imgs/me_long.jpg);
+	background-image: url(imgs/me_edit.jpg);
 	flex-grow: 1;
 	max-height: 70vh;
 	min-width: 30vw;

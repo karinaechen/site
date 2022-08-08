@@ -55,6 +55,7 @@
 	}
 }
 
+/*
 .home-page-shape-1 {
 	position: absolute;
 	width: 25vw;
@@ -85,7 +86,7 @@
 	bottom: 0;
 	right: 0;
 	z-index: -1;
-}
+}*/
 
 .home-page-shape-3::before {
 	content: '';
